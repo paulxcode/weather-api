@@ -1,5 +1,5 @@
 import requests
-API_KEY = "3063858c7ccd2898a3693026d30c5f4e"
+API_KEY = "API_KEY"
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 city = input("INTRODU NUMELE ORASULUI: ")
 request_url = f"{BASE_URL}?appid={API_KEY}&q={city}"
